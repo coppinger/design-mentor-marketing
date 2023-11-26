@@ -23,6 +23,10 @@ h2 {
 	@apply text-5xl;
 }
 
+h3 {
+	@apply text-4xl;
+}
+
 /* Custom colors */
 
 .color-1 {
@@ -44,9 +48,13 @@ h2 {
 	border: 1px solid #15803d;
 	background: linear-gradient(180deg, rgba(21, 128, 61, 0.2) 0%, rgba(134, 239, 172, 0.2) 100%),
 		#86efac;
-	@apply px-8 py-4 flex w-fit font-bold text-green-700 hover:scale-110 transition-all ease-linear duration-150 delay-75 shadow-button hover:shadow-hover;
+	@apply px-8 py-4 flex w-fit font-bold text-green-700 hover:scale-110 transition-all ease-linear duration-150 delay-75 shadow-button hover:shadow-hover gap-2 items-center;
 }
 
 .p-section {
 	@apply px-6 py-10 lg:px-20 lg:py-20;
+}
+
+.subtitle {
+	@apply text-white opacity-[64%] text-lg font-semibold;
 }

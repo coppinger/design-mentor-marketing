@@ -8,6 +8,9 @@ export default {
 				glamour: ['Glamour', 'serif'],
 				summerloving: ['Summer Loving', 'serif']
 			},
+			backgroundImage: {
+				pricing: "url('lib/images/pricing-background.jpg')"
+			},
 			boxShadow: {
 				button:
 					'0px -3px 10.3px 0px #138d3f inset, 0px 2px 2px 0px #8affb4 inset, 0px 0px 56.8px 0px rgba(140, 218, 173, 0.46)',

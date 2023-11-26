@@ -17,6 +17,8 @@
 	<div class="w-full h-3 bg-blue-900"></div>
 </div>
 
-<div class="max-w-screen-2xl mx-auto">
+<div
+	class="max-w-screen-2xl mx-auto 2xl:border-[#242C4D] 2xl:border-l-8 2xl:border-r-8 2xl:border-opacity-[32%]"
+>
 	<slot />
 </div>
