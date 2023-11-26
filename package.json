@@ -22,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource-variable/manrope": "^5.0.17"
+		"@fontsource-variable/manrope": "^5.0.17",
+		"gsap": "^3.12.2"
 	}
 }

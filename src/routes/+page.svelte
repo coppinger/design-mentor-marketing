@@ -15,6 +15,8 @@
 	import Heart from '../lib/svgs/Heart.svelte';
 	import Confetti from '../lib/svgs/Confetti.svelte';
 	import Star from '../lib/svgs/Star.svelte';
+	import StreamerBadge from '../components/StreamerBadge.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	const introRow = [
 		{
@@ -460,7 +462,7 @@
 </section>
 <!-- End Breakout 3 -->
 <!-- Pricing Section -->
-<section class="p-section flex flex-col gap-12 bg-pricing bg-no-repeat bg-bottom">
+<section class="p-section flex flex-col gap-12 bg-pricing bg-no-repeat bg-right-bottom">
 	<div class="flex flex-col gap-6 items-center">
 		<h3>Early Access</h3>
 		<p class="subtitle text-center max-w-sm">
@@ -510,13 +512,13 @@
 		</div>
 	</div>
 	<!-- Premium Pricing -->
-	<div class="bg-gradient-to-t from-[#020617] to-[#0F172A] rounded-[32px] w-full h-full">
+	<div class="bg-[#020617] bg-opacity-[1%] backdrop-blur-3xl rounded-[32px] w-full h-full">
 		<div
 			class="flex flex-col items-center gap-12 px-6 py-16 border-8 border-[#020617] border-opacity-[32%] rounded-[32px]"
 		>
 			<h3>Premium</h3>
 			<div class="flex flex-col gap-8 items-center">
-				<img src={premium_pricing} alt="" />
+				<img class="max-w-[250px]" src={premium_pricing} alt="" />
 				<p class="text-lg font-semibold text-white text-center">
 					Limited to 10 people, 7 remaining
 				</p>
@@ -557,3 +559,48 @@
 		</div>
 	</div>
 </section>
+<!-- FAQ Section -->
+<section class="p-section flex flex-col gap-12">
+	<div class="flex flex-col gap-6 items-center">
+		<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path
+				d="M9.09009 9.88381C9.32519 9.21548 9.78924 8.65192 10.4 8.29294C11.0108 7.93397 11.729 7.80275 12.4273 7.92252C13.1255 8.04229 13.7589 8.40533 14.2152 8.94734C14.6714 9.48934 14.9211 10.1753 14.9201 10.8838C14.9201 12.8838 11.9201 13.8838 11.9201 13.8838M12 17.8838H12.01M22 12.8838C22 18.4066 17.5228 22.8838 12 22.8838C6.47715 22.8838 2 18.4066 2 12.8838C2 7.36094 6.47715 2.88379 12 2.88379C17.5228 2.88379 22 7.36094 22 12.8838Z"
+				stroke="white"
+				stroke-width="2"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			/>
+		</svg>
+		<h3>FAQ</h3>
+	</div>
+	<ul class="flex flex-col gap-12">
+		<li class="flex flex-col gap-2">
+			<p class="text-xl font-semibold">What if I subscribe but then I hate it?</p>
+			<p class="subtitle !opacity-100 !text-slate-400">
+				I’ll give you a full refund, no questions asked. Small print: this stands for 14 days
+				following you signing up.
+			</p>
+		</li>
+		<li class="flex flex-col gap-2">
+			<p class="text-xl font-semibold">What if I subscribe but then I hate it?</p>
+			<p class="subtitle !opacity-100 !text-slate-400">
+				I’ll give you a full refund, no questions asked. Small print: this stands for 14 days
+				following you signing up.
+			</p>
+		</li>
+	</ul>
+</section>
+<div class="p-section flex flex-col gap-6">
+	<StreamerBadge />
+	<div class="flex flex-col gap-6 items-center">
+		<p class="font-summerloving text-white text-8xl">Kia ora!</p>
+		<p class="text-slate-200 text-2xl font-bold">Hey, that’s me, Charlie.</p>
+		<p class="text-lg font-semibold text-slate-400">
+			I’m an indie hacker and product designer from Wellington, New Zealand.
+		</p>
+		<p class="text-lg font-semibold text-slate-400">
+			I’ve built LeetUX 100% live, over on Twitch—pop by and say hello some time!
+		</p>
+	</div>
+</div>
+<Footer />
