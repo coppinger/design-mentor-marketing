@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Glamour';
+	src: url('./lib/fonts/GlamourAbsolute_Regular.otf');
+}
+
+@font-face {
+	font-family: 'Summer Loving';
+	src: url('./lib/fonts/SummerLoving.otf');
+}
+
+h1,
+h2,
+h3,
+h4 {
+	@apply font-glamour;
+}
+
+h2 {
+	@apply text-5xl;
+}
+
+/* Custom colors */
+
+.color-1 {
+	@apply text-pink-500;
+}
+
+.color-2 {
+	@apply text-violet-700;
+}
+
+.color-3 {
+	@apply text-blue-900;
+}
+
+/* Components and styles */
+
+.primary-button {
+	border-radius: 12px;
+	border: 1px solid #15803d;
+	background: linear-gradient(180deg, rgba(21, 128, 61, 0.2) 0%, rgba(134, 239, 172, 0.2) 100%),
+		#86efac;
+	@apply px-8 py-4 flex w-fit font-bold text-green-700 hover:scale-110 transition-all ease-linear duration-150 delay-75 shadow-button hover:shadow-hover;
+}
+
+.p-section {
+	@apply px-6 py-10 lg:px-20 lg:py-20;
+}
