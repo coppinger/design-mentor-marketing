@@ -5,6 +5,12 @@
 	import video_placeholder from '$images/video-lesson-placeholder.png';
 	import lifetime_pricing from '$images/lifetime-pricing.png';
 	import premium_pricing from '$images/premium-pricing.png';
+	import avatar_01 from '$images/avatar-01.png';
+	import avatar_02 from '$images/avatar-02.png';
+	import avatar_03 from '$images/avatar-03.png';
+	import avatar_04 from '$images/avatar-04.png';
+	import avatar_05 from '$images/avatar-05.png';
+	import example_challenge from '$images/example-challenge.png';
 
 	// Components
 	import FeatureGridItem from '../components/FeatureGridItem.svelte';
@@ -41,12 +47,67 @@
 </script>
 
 <!-- Hero section -->
-<section class="flex flex-col">
+<section
+	class="flex flex-col bg-hero bg-cover [mask-image:_linear-gradient(to_bottom,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]"
+>
 	<Header />
+	<div class="border-2 border-dashed border-[#2D4C7E] rounded-lg h-full place-self-center">
+		<!-- Card Header -->
+		<div class="flex flex-col gap-2 px-8 py-6">
+			<div class="flex justify-between">
+				<div class="flex gap-2">
+					<p class="text-xl font-bold text-slate-400">24</p>
+					<p class="text-xl font-bold text-white">Onboarding Flow</p>
+				</div>
+				<div
+					class="px-3 py-1 flex items-center justify-center bg-fuchsia-300 rounded-full w-fit tracking-wider h-fit"
+				>
+					<p class="font-black text-xs text-fuchsia-700">MEDIUM</p>
+				</div>
+			</div>
+			<p class="text-slate-400 font-semibold">
+				Plan, wireframe and create a highly functional onboarding flow
+			</p>
+		</div>
+		<!-- Card Image -->
+		<div class="max-w-[474px] flex items-center justify-center mx-auto">
+			<img src={example_challenge} alt="" />
+		</div>
+		<!-- Card Footer -->
+		<div class="flex justify-between items-center px-8 py-6">
+			<div class="flex flex-col gap-3">
+				<p class="font-black text-xs text-slate-400 tracking-widest">COMPLETED BY</p>
+				<div class="flex gap-2 items-center">
+					<div class="flex -space-x-3">
+						<img class="h-8 w-8" src={avatar_01} alt="" />
+						<img class="h-8 w-8" src={avatar_02} alt="" />
+						<img class="h-8 w-8" src={avatar_03} alt="" />
+						<img class="h-8 w-8" src={avatar_04} alt="" />
+						<img class="h-8 w-8" src={avatar_05} alt="" />
+					</div>
+					<p class="font-semibold text-slate-400 text-sm">+ 27 others</p>
+				</div>
+			</div>
+			<a href="#" class="outline-button text-center justify-center">
+				Next lesson <svg
+					width="17"
+					height="17"
+					viewBox="0 0 17 17"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M2.70575 12.292C2.8425 13.4747 3.77525 14.4075 4.958 14.5442C5.90625 14.654 7.184 14.75 8.75 14.75C10.316 14.75 11.5937 14.654 12.542 14.5442C13.7247 14.4075 14.6575 13.4747 14.7942 12.292C14.904 11.3437 15 10.066 15 8.5C15 6.934 14.904 5.65625 14.7942 4.708C14.6575 3.52525 13.7247 2.5925 12.542 2.45575C11.5937 2.346 10.316 2.25 8.75 2.25C7.184 2.25 5.90625 2.346 4.958 2.45575C3.77525 2.5925 2.8425 3.52525 2.70575 4.708C2.596 5.65625 2.5 6.934 2.5 8.5C2.5 10.066 2.596 11.3437 2.70575 12.292ZM11.4427 8.5L10.929 9.0055L7.61925 12.262L6.8805 11.588L9.40725 8.5L6.88075 5.412L7.6195 4.738L10.9292 7.9945L11.4427 8.5Z"
+						fill="#CBD5E1"
+					/>
+				</svg>
+			</a>
+		</div>
+	</div>
 	<div class="flex flex-col py-10 px-6">
 		<div class="flex flex-col items-center">
-			<h2 class="text-center mb-6">Stop struggling with design. Start mastering it.</h2>
-			<p class="text-center text-slate-400 text-xl font-bold mb-10">
+			<h2 class="text-center mb-6 max-w-3xl">Stop struggling with design. Start mastering it.</h2>
+			<p class="text-center text-slate-400 text-xl font-semibold mb-10 max-w-md">
 				Complete design challenges to quickly build skills for crafting highly functional, beautiful
 				components and interfaces.
 			</p>
@@ -156,7 +217,20 @@
 			<div class="bg-slate-950 flex flex-col w-full rounded-2xl">
 				<div class="flex flex-col gap-4 p-4 rounded-xl overflow-hidden w-full items-stretch">
 					<img class="w-full rounded-xl" src={video_placeholder} alt="" />
-					<a href="#" class="primary-button !w-full text-center justify-center"> Next lesson</a>
+					<a href="#" class="outline-button !w-full text-center justify-center">
+						Next lesson <svg
+							width="17"
+							height="17"
+							viewBox="0 0 17 17"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M2.70575 12.292C2.8425 13.4747 3.77525 14.4075 4.958 14.5442C5.90625 14.654 7.184 14.75 8.75 14.75C10.316 14.75 11.5937 14.654 12.542 14.5442C13.7247 14.4075 14.6575 13.4747 14.7942 12.292C14.904 11.3437 15 10.066 15 8.5C15 6.934 14.904 5.65625 14.7942 4.708C14.6575 3.52525 13.7247 2.5925 12.542 2.45575C11.5937 2.346 10.316 2.25 8.75 2.25C7.184 2.25 5.90625 2.346 4.958 2.45575C3.77525 2.5925 2.8425 3.52525 2.70575 4.708C2.596 5.65625 2.5 6.934 2.5 8.5C2.5 10.066 2.596 11.3437 2.70575 12.292ZM11.4427 8.5L10.929 9.0055L7.61925 12.262L6.8805 11.588L9.40725 8.5L6.88075 5.412L7.6195 4.738L10.9292 7.9945L11.4427 8.5Z"
+								fill="#CBD5E1"
+							/>
+						</svg>
+					</a>
 				</div>
 			</div>
 		</div>

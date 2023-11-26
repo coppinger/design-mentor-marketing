@@ -9,7 +9,8 @@ export default {
 				summerloving: ['Summer Loving', 'serif']
 			},
 			backgroundImage: {
-				pricing: "url('lib/images/pricing-background.jpg')"
+				pricing: "url('lib/images/pricing-background.jpg')",
+				hero: "url('lib/images/hero-background.jpg')"
 			},
 			boxShadow: {
 				button:

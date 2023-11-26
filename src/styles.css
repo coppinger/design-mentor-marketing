@@ -20,7 +20,7 @@ h4 {
 }
 
 h2 {
-	@apply text-5xl;
+	@apply text-5xl lg:text-6xl;
 }
 
 h3 {
@@ -41,7 +41,7 @@ h3 {
 	@apply text-blue-900;
 }
 
-/* Components and styles */
+/* Components */
 
 .primary-button {
 	border-radius: 12px;
@@ -51,10 +51,18 @@ h3 {
 	@apply px-8 py-4 flex w-fit font-bold text-green-700 hover:scale-110 transition-all ease-linear duration-150 delay-75 shadow-button hover:shadow-hover gap-2 items-center;
 }
 
-.p-section {
-	@apply px-6 py-10 lg:px-20 lg:py-20;
+.outline-button {
+	@apply px-8 py-3 flex w-fit font-bold text-slate-300  transition-all ease-linear duration-150 delay-75 hover:border-slate-500 gap-2 items-center rounded-xl border-2 border-slate-300 cursor-not-allowed;
 }
+
+/* Text */
 
 .subtitle {
 	@apply text-white opacity-[64%] text-lg font-semibold;
+}
+
+/* Misc */
+
+.p-section {
+	@apply px-6 py-10 lg:px-20 lg:py-20;
 }

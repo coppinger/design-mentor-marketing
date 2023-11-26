@@ -23,6 +23,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/manrope": "^5.0.17",
+		"atropos": "^2.0.2",
 		"gsap": "^3.12.2"
 	}
 }
