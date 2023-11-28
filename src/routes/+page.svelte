@@ -607,7 +607,7 @@
 <!-- Pricing Section -->
 <section
 	id="pricing"
-	class="p-section flex flex-col gap-12 bg-pricing bg-cover bg-no-repeat bg-right-bottom md:bg-top [mask-image:_linear-gradient(to_top,transparent_0,_black_calc(100%-60px),transparent_100%)]"
+	class="p-section flex flex-col gap-12 bg-pricing bg-cover bg-no-repeat bg-right-bottom md:bg-top [mask-image:_linear-gradient(to_bottom,transparent_0,_black_calc(10px),_black_calc(100%-80px),transparent_100%)]"
 >
 	<div class="flex flex-col gap-6 items-center">
 		<h3>Early Access</h3>

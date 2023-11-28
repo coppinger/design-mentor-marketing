@@ -8,7 +8,41 @@
 </script>
 
 <svelte:head>
-	<title>Page title</title>
+	<!-- Primary Meta Tags -->
+	<title>LeetUX — UI/UX & product design challenges for developers</title>
+
+	<link rel="icon" href="https://leetux.com/images/favicon.png" />
+
+	<meta name="title" content="LeetUX — UI/UX & product design challenges for developers" />
+	<meta
+		name="description"
+		content="Design challenges that quickly teach you everything you need to build functional and clean interfaces."
+	/>
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://leetux.com" />
+	<meta property="og:title" content="LeetUX — UI/UX & product design challenges for developers" />
+	<meta
+		property="og:description"
+		content="Design challenges that quickly teach you everything you need to build functional and clean interfaces."
+	/>
+	<meta property="og:image" content="https://leetux.com/images/meta-image.jpg" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://leetux.com/" />
+	<meta
+		property="twitter:title"
+		content="LeetUX — UI/UX & product design challenges for developers"
+	/>
+	<meta
+		property="twitter:description"
+		content="Design challenges that quickly teach you everything you need to build functional and clean interfaces."
+	/>
+	<meta property="twitter:image" content="https://leetux.com/images/meta-image.jpg" />
+
+	<!-- Meta Tags Generated with https://metatags.io -->
 </svelte:head>
 
 <div>
