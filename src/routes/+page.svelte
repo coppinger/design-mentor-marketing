@@ -900,11 +900,11 @@
 			I’m an indie hacker and product designer from Wellington, New Zealand.
 		</p>
 		<p class="text-lg font-semibold text-slate-400">
-			I’ve built LeetUX 100% live, <a
+			I'm building LeetUX 100% live <a
 				href="https://twitch.tv/thecoppinger"
 				class="underline underline-offset-4 plausible-event-name=TwitchAboutClick"
 				target="_blank">over on Twitch</a
-			> by and say hello some time!
+			>—stop by and say hello some time!
 		</p>
 	</div>
 </div>
