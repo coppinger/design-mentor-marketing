@@ -7,7 +7,10 @@
 	<div class="flex flex-col gap-8 items-center">
 		<Logo />
 		<p class="text-lg font-semibold text-slate-400">Design challenges—by devs, for devs.</p>
-		<a href="https://twitter.com/thecoppinger" target="_blank"
+		<a
+			href="https://twitter.com/thecoppinger"
+			target="_blank"
+			class="plausible-event-name=TwitterFooterClick"
 			><svg
 				width="22"
 				height="18"
