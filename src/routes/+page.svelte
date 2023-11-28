@@ -42,7 +42,8 @@
 	onMount(() => {
 		const exampleChallenge = Atropos({
 			el: '#example-challenge',
-			shadow: false
+			shadow: false,
+			rotateTouch: false
 		});
 		fadeIn('.price', '.pricing');
 	});
