@@ -1,19 +1,12 @@
 <script>
-	import { PlausibleAnalytics } from '@accuser/svelte-plausible-analytics';
-
 	import Logo from './Logo.svelte';
-	const { addEvent } = PlausibleAnalytics;
 </script>
 
 <footer class="flex flex-col py-40 items-center gap-20">
 	<div class="flex flex-col gap-8 items-center">
 		<Logo />
 		<p class="text-lg font-semibold text-slate-400">Design challenges—by devs, for devs.</p>
-		<a
-			href="https://twitter.com/thecoppinger"
-			target="_blank"
-			class="plausible-event-name=TwitterFooterClick"
-			on:click={addEvent('TwitterFooterClick')}
+		<a href="https://twitter.com/thecoppinger" target="_blank"
 			><svg
 				width="22"
 				height="18"

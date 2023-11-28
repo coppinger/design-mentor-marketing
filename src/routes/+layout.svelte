@@ -6,6 +6,12 @@
 </script>
 
 <svelte:head>
+	<script
+		src="https://cdn.usefathom.com/script.js"
+		data-spa="auto"
+		data-site="TOADOEDA"
+		defer
+	></script>
 	<!-- Primary Meta Tags -->
 	<title>LeetUX — UI/UX & product design challenges for developers</title>
 
