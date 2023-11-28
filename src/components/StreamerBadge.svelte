@@ -76,7 +76,11 @@
 				<path d="M21.8843 6.50952H19.656V13.2244H21.8843V6.50952Z" fill="#9146FF" />
 				<path d="M15.7564 6.50952H13.5281V13.2244H15.7564V6.50952Z" fill="#9146FF" />
 			</svg>
-			<a href="https://twitch.tv/thecoppinger" target="_blank" class="flex flex-col z-10">
+			<a
+				href="https://twitch.tv/thecoppinger"
+				target="_blank"
+				class="flex flex-col z-10 plausible-event-name=TwitchBadgeClick"
+			>
 				<p class="text-lg font-bold">TheCoppinger</p>
 				<p class="text-lg font-medium text-slate-300">2.3K followers</p>
 			</a>

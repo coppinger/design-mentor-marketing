@@ -752,8 +752,10 @@
 						<p class="text-white opacity-[64%] font-semibold">A cute early access badge</p>
 					</li>
 				</ul>
-				<a href="https://buy.stripe.com/7sI6sj4d4c9Ac12145" target="_blank" class="primary-button"
-					>I want in <Confetti /></a
+				<a
+					href="https://buy.stripe.com/7sI6sj4d4c9Ac12145"
+					target="_blank"
+					class="primary-button plausible-event-name=LifetimePlanClick">I want in <Confetti /></a
 				>
 			</div>
 		</div>
@@ -805,8 +807,10 @@
 						<p class="text-white opacity-[64%] font-semibold">A cute early access badge</p>
 					</li>
 				</ul>
-				<a href="https://buy.stripe.com/bIYaIz10Sa1s0ikaEG" target="_blank" class="primary-button"
-					>Let's do this <Confetti /></a
+				<a
+					href="https://buy.stripe.com/bIYaIz10Sa1s0ikaEG"
+					target="_blank"
+					class="primary-button plausible-event-name=PremiumPlanClick">Let's do this <Confetti /></a
 				>
 			</div>
 		</div>
@@ -897,7 +901,7 @@
 		<p class="text-lg font-semibold text-slate-400">
 			I’ve built LeetUX 100% live, <a
 				href="https://twitch.tv/thecoppinger"
-				class="underline underline-offset-4"
+				class="underline underline-offset-4 plausible-event-name=TwitterFooterClick"
 				target="_blank">over on Twitch</a
 			> by and say hello some time!
 		</p>

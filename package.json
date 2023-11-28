@@ -10,6 +10,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@accuser/svelte-plausible-analytics": "^0.5.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.27.4",
 		"autoprefixer": "^10.4.16",

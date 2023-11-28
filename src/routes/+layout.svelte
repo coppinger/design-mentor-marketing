@@ -2,9 +2,7 @@
 	import '@fontsource-variable/manrope';
 	import '../styles.css';
 
-	// SVGs
-
-	// Images
+	import { PlausibleAnalytics } from '@accuser/svelte-plausible-analytics';
 </script>
 
 <svelte:head>
@@ -41,9 +39,9 @@
 		content="Design challenges that quickly teach you everything you need to build functional and clean interfaces."
 	/>
 	<meta property="twitter:image" content="https://leetux.com/images/meta-image.jpg" />
-
-	<!-- Meta Tags Generated with https://metatags.io -->
 </svelte:head>
+
+<PlausibleAnalytics />
 
 <div>
 	<div class="w-full h-2 bg-pink-500"></div>
