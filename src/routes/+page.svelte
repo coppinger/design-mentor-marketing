@@ -38,6 +38,7 @@
 	import 'atropos/css';
 	import Atropos from 'atropos';
 	import ScrollStack from '../lib/components/ScrollStack.svelte';
+	import ConfettiOnClick from '../components/ConfettiOnClick.svelte';
 
 	onMount(() => {
 		const exampleChallenge = Atropos({
@@ -132,7 +133,7 @@
 									<p class="font-semibold text-slate-400 text-sm">+ 27 others</p>
 								</div>
 							</div>
-							<a href="#" class="outline-button text-center justify-center items-center">
+							<ConfettiOnClick>
 								Start challenge
 								<svg
 									data-atropos-offset="10"
@@ -147,7 +148,7 @@
 										fill="#CBD5E1"
 									/>
 								</svg>
-							</a>
+							</ConfettiOnClick>
 						</div>
 					</div>
 				</div>
@@ -291,7 +292,7 @@
 								<p class="text-lg font-semibold opacity-[64%]">Lesson 8</p>
 								<p class="text-lg font-semibold">Visual Hierarchy</p>
 							</div>
-							<a href="#" class="outline-button text-center justify-center h-12 !px-6 !text-base">
+							<ConfettiOnClick>
 								Start <span class="block lg:hidden xl:block">lesson</span>
 								<svg
 									width="17"
@@ -305,7 +306,7 @@
 										fill="#CBD5E1"
 									/>
 								</svg>
-							</a>
+							</ConfettiOnClick>
 						</div>
 					</div>
 				</div>
@@ -460,10 +461,7 @@
 								<!-- <p class="font-semibold text-slate-400 text-sm">+ 27 others</p> -->
 							</div>
 						</div>
-						<a
-							href="#"
-							class="outline-button text-center justify-center items-center flex-nowrap whitespace-nowrap !px-4"
-						>
+						<ConfettiOnClick>
 							Start challenge <svg
 								data-atropos-offset="10"
 								width="17"
@@ -477,7 +475,7 @@
 									fill="#CBD5E1"
 								/>
 							</svg>
-						</a>
+						</ConfettiOnClick>
 					</div>
 				</div>
 			</div>
@@ -590,8 +588,8 @@
 					<div class="hidden xl:block">
 						<div class="p-4 xl:p-8"><img src={feedback_bg} alt="" /></div>
 						<div class="w-full bg-slate-900 py-4 px-8 flex justify-end">
-							<a href="#" class="outline-button h-12 !px-6 !text-base"
-								>Mark as read <svg
+							<ConfettiOnClick>
+								Mark as read <svg
 									width="17"
 									height="17"
 									viewBox="0 0 17 17"
@@ -603,7 +601,7 @@
 										fill="#CBD5E1"
 									/>
 								</svg>
-							</a>
+							</ConfettiOnClick>
 						</div>
 					</div>
 					<div class="block xl:hidden">
@@ -709,8 +707,8 @@
 	<div class="flex flex-col gap-6 items-center">
 		<h3>Early Access</h3>
 		<p class="subtitle text-center max-w-sm">
-			Design Mentor isn’t ready yet, but I’m hoping to find =&lt;20 folks who are excited and want
-			to get on board early.
+			LeetUX isn’t ready yet, but I’m hoping to find =&lt;20 folks who are excited and want to get
+			on board early.
 		</p>
 	</div>
 	<div class="flex flex-col gap-6 items-center md:flex-row mx-auto md:gap-16">
@@ -746,7 +744,7 @@
 					</li>
 					<li class="flex gap-4 items-center">
 						<div class="shrink-0"><Checkmark /></div>
-						<p class="text-white opacity-[64%] font-semibold">Help me shape Design Mentor</p>
+						<p class="text-white opacity-[64%] font-semibold">Help me shape LeetUX</p>
 					</li>
 					<li class="flex gap-4 items-center">
 						<Heart />
@@ -801,7 +799,7 @@
 					</li>
 					<li class="flex gap-4 items-center">
 						<div class="shrink-0"><Checkmark /></div>
-						<p class="text-white opacity-[64%] font-semibold">Help me shape Design Mentor</p>
+						<p class="text-white opacity-[64%] font-semibold">Help me shape LeetUX</p>
 					</li>
 					<li class="flex gap-4 items-center">
 						<Heart />
