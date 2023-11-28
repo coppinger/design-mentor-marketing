@@ -30,9 +30,11 @@
 </script>
 
 <header
-	class="flex px-6 md:px-20 py-8 backdrop-blur-3xl bg-opacity-[1%] bg-[#020617] justify-between items-center"
+	class="flex md:sticky top-0 left-0 px-6 md:px-20 py-8 backdrop-blur-3xl bg-opacity-[1%] bg-[#020617] justify-between items-center"
 >
-	<Logo />
+	<a href="#header">
+		<Logo />
+	</a>
 	<div class="hidden lg:block">
 		<Nav {navItems} />
 	</div>

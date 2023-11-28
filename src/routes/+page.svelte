@@ -74,7 +74,7 @@
 <!-- Hero section -->
 <section
 	id="header"
-	class="flex flex-col gap-16 bg-hero bg-cover bg-top before::[mask-image:_linear-gradient(to_bottom,transparent_0,_black_64px,_black_calc(100%-200px),transparent_100%)]"
+	class="flex flex-col gap-16 bg-hero bg-cover bg-top before::[mask-image:_linear-gradient(to_bottom,transparent_0,_black_64px,_black_calc(100%-200px),transparent_100%)] relative"
 >
 	<Header />
 	<div id="example-challenge" class="px-6 lg:px-20 w-fit mx-auto">
