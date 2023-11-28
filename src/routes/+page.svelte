@@ -818,24 +818,60 @@
 	</div>
 	<ul class="flex flex-col md:grid md:grid-cols-2 gap-12">
 		<li class="flex flex-col gap-2">
-			<p class="text-xl font-semibold">What if I subscribe but then I hate it?</p>
+			<p class="text-xl font-semibold">What is LeetUX?</p>
+			<p class="subtitle !opacity-100 !text-slate-400">
+				LeetUX is a design education platform, primarily for developers, that quickly and
+				efficiently teaches UI/UX & product design skills through design challenges combined with a
+				feedback system.
+			</p>
+		</li>
+		<li class="flex flex-col gap-2">
+			<p class="text-xl font-semibold">What kind of design challenges does Leet UX offer?</p>
+			<p class="subtitle !opacity-100 !text-slate-400">
+				The design challenges range from design theory, to product design methods and proccesses,
+				all the way to the creation of components and interfaces in Figma—the full stack of the
+				design proccess.
+			</p>
+		</li>
+		<li class="flex flex-col gap-2">
+			<p class="text-xl font-semibold">What if I pay but I find out LeetUX isn't valuable to me?</p>
 			<p class="subtitle !opacity-100 !text-slate-400">
 				I’ll give you a full refund, no questions asked. Small print: this stands for 14 days
 				following you signing up.
 			</p>
 		</li>
 		<li class="flex flex-col gap-2">
-			<p class="text-xl font-semibold">What if I subscribe but then I hate it?</p>
+			<p class="text-xl font-semibold">What are the prerequisites for joining Leet UX?</p>
 			<p class="subtitle !opacity-100 !text-slate-400">
-				I’ll give you a full refund, no questions asked. Small print: this stands for 14 days
-				following you signing up.
+				There are none, either in terms of design skills nor programming skills.
 			</p>
 		</li>
 		<li class="flex flex-col gap-2">
-			<p class="text-xl font-semibold">What if I subscribe but then I hate it?</p>
+			<p class="text-xl font-semibold">How does the feedback system work?</p>
 			<p class="subtitle !opacity-100 !text-slate-400">
-				I’ll give you a full refund, no questions asked. Small print: this stands for 14 days
-				following you signing up.
+				Users can submit their designs for critique within our community. Feedback comes from both
+				peers and seasoned design professionals, providing a diverse range of insights and
+				suggestions for improvement.
+			</p>
+		</li>
+		<li class="flex flex-col gap-2">
+			<p class="text-xl font-semibold">Are there any community guidelines for Leet UX?</p>
+			<p class="subtitle !opacity-100 !text-slate-400">
+				Yes, we maintain a respectful, inclusive community. Our guidelines emphasize constructive
+				feedback, mutual respect, and a collaborative learning environment. We believe in fostering
+				a positive space where all members feel welcome and valued.
+			</p>
+		</li>
+		<li class="flex flex-col gap-2">
+			<p class="text-xl font-semibold">What if I'm not a developer?</p>
+			<p class="subtitle !opacity-100 !text-slate-400">
+				LeetUX provides massive value to anyone who wishes to grow their UI/UX and product design
+				skills. Having said that, we're working on a similar platform for a more general/design
+				focused audience. Check out <a
+					href="https://designmentor.io"
+					target="_blank"
+					class="underline underline-offset-4">Design Mentor</a
+				>.
 			</p>
 		</li>
 	</ul>
