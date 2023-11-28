@@ -65,10 +65,15 @@ export function scrollStack(target: string) {
 	);
 }
 
-export function fadeIn(target: string, triggerTarget?: string, scrub?: boolean) {
+export function fadeIn(target: string, triggerTarget?: string) {
 	gsap.registerPlugin(ScrollTrigger);
 	const fadeInTL = gsap.timeline({
-		scrollTrigger: { trigger: triggerTarget, start: 'top top', end: 'bottom bottom', scrub: scrub }
+		scrollTrigger: {
+			trigger: triggerTarget,
+			start: '-=100 center',
+			end: 'bottom bottom',
+			scrub: true
+		}
 	});
 	const fadeInTargets = gsap.utils.toArray(target);
 	fadeInTargets.forEach((target) => {
@@ -82,9 +87,9 @@ export function fadeIn(target: string, triggerTarget?: string, scrub?: boolean) 
 				y: 0,
 				opacity: 1,
 				duration: 2,
-				stagger: 0.05
+				stagger: 0.5
 			},
-			'-=1'
+			'-=.5'
 		);
 	});
 }

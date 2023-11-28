@@ -31,6 +31,9 @@
 	// Svelte
 	import { onMount } from 'svelte';
 
+	// Utils
+	import { fadeIn } from '$lib/animation';
+
 	// Atropos
 	import 'atropos/css';
 	import Atropos from 'atropos';
@@ -41,6 +44,7 @@
 			el: '#example-challenge',
 			shadow: false
 		});
+		fadeIn('.price', '.pricing');
 	});
 
 	// Page data
@@ -156,7 +160,7 @@
 				Complete design challenges to quickly build skills for crafting highly functional, beautiful
 				components and interfaces.
 			</p>
-			<a href="#" class="primary-button mb-4 flex items-center gap-2"
+			<a href="#pricing" class="primary-button mb-4 flex items-center gap-2"
 				>Shut up and take my money <svg
 					width="16"
 					height="16"
@@ -699,7 +703,7 @@
 <!-- Pricing Section -->
 <section
 	id="pricing"
-	class="p-section flex flex-col gap-12 bg-pricing bg-cover bg-no-repeat bg-right-bottom md:bg-top [mask-image:_linear-gradient(to_bottom,transparent_0,_black_calc(10px),_black_calc(100%-80px),transparent_100%)]"
+	class="pricing p-section flex flex-col gap-12 bg-pricing bg-cover bg-no-repeat bg-right-bottom md:bg-top [mask-image:_linear-gradient(to_bottom,transparent_0,_black_calc(10px),_black_calc(100%-80px),transparent_100%)]"
 >
 	<div class="flex flex-col gap-6 items-center">
 		<h3>Early Access</h3>
@@ -709,7 +713,9 @@
 		</p>
 	</div>
 	<div class="flex flex-col gap-6 items-center md:flex-row mx-auto md:gap-16">
-		<div class="bg-gradient-to-t from-[#020617] to-[#0F172A] rounded-[32px] w-full h-full max-w-lg">
+		<div
+			class="price bg-gradient-to-t from-[#020617] to-[#0F172A] rounded-[32px] w-full h-full max-w-lg"
+		>
 			<div
 				class="flex flex-col items-center gap-12 px-6 py-16 border-8 border-[#020617] border-opacity-[32%] rounded-[32px]"
 			>
@@ -746,12 +752,14 @@
 						<p class="text-white opacity-[64%] font-semibold">A cute early access badge</p>
 					</li>
 				</ul>
-				<a href="#" class="primary-button">Let's do this <Confetti /></a>
+				<a href="https://buy.stripe.com/7sI6sj4d4c9Ac12145" target="_blank" class="primary-button"
+					>I want in <Confetti /></a
+				>
 			</div>
 		</div>
 		<!-- Premium Pricing -->
 		<div
-			class="bg-[#020617] bg-opacity-[1%] backdrop-blur-3xl rounded-[32px] w-full h-full max-w-lg"
+			class="price bg-[#020617] bg-opacity-[1%] backdrop-blur-3xl rounded-[32px] w-full h-full max-w-lg"
 		>
 			<div
 				class="flex flex-col items-center gap-12 px-6 py-16 border-8 border-[#020617] border-opacity-[32%] rounded-[32px]"
@@ -797,7 +805,9 @@
 						<p class="text-white opacity-[64%] font-semibold">A cute early access badge</p>
 					</li>
 				</ul>
-				<a href="#" class="primary-button">Let's do this <Confetti /></a>
+				<a href="https://buy.stripe.com/bIYaIz10Sa1s0ikaEG" target="_blank" class="primary-button"
+					>Let's do this <Confetti /></a
+				>
 			</div>
 		</div>
 	</div>

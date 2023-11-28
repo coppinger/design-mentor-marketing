@@ -40,7 +40,7 @@
 		<Burger {navItems} />
 	</div>
 	<div class="hidden lg:block">
-		<a href="#" class="primary-button !px-4 !h-[42px] !text-xs !rounded-xl"
+		<a href="#pricing" class="primary-button !px-4 !h-[42px] !text-xs !rounded-xl"
 			>Sign me up <svg
 				width="16"
 				height="16"
