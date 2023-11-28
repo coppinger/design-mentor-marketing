@@ -2,16 +2,10 @@
 	// Components
 	import Nav from './Nav.svelte';
 	import Burger from '$svgs/Burger.svelte';
-
-	// Images
-	import logo from '$images/logo.png';
+	import Logo from './Logo.svelte';
 
 	// Page data
 	const navItems = [
-		{
-			text: 'Home',
-			path: 'home'
-		},
 		{
 			text: 'Fundamentals',
 			path: 'fundamentals'
@@ -38,13 +32,12 @@
 <header
 	class="flex px-6 py-8 backdrop-blur-3xl bg-opacity-[1%] bg-[#020617] justify-between items-center"
 >
-	<img src={logo} class="max-h-10" alt="Design Mentor Logo" />
-
+	<Logo />
 	<div class="hidden lg:block">
 		<Nav {navItems} />
 	</div>
 	<div class="block lg:hidden">
-		<Burger />
+		<Burger {navItems} />
 	</div>
 	<div class="hidden lg:block">
 		<a href="#" class="primary-button !pt-3 !pb-[14px] !px-4 !h-[42px] !text-xs !rounded-xl"

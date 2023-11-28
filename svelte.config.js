@@ -11,7 +11,8 @@ const config = {
 			$svgs: 'src/lib/svgs',
 			$components: 'src/lib/components',
 			$images: 'src/lib/images',
-			$fonts: 'src/lib/fonts'
+			$fonts: 'src/lib/fonts',
+			$lib: './src/lib'
 		}
 	}
 };

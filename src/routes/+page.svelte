@@ -65,6 +65,7 @@
 
 <!-- Hero section -->
 <section
+	id="header"
 	class="flex flex-col gap-16 bg-hero bg-cover bg-top before::[mask-image:_linear-gradient(to_bottom,transparent_0,_black_64px,_black_calc(100%-200px),transparent_100%)]"
 >
 	<Header />
@@ -254,6 +255,7 @@
 	<!-- Feature breakout 1 -->
 	<section
 		class="p-section flex flex-col md:grid md:grid-cols-5 gap-8 max-w-[1440px] mx-auto w-full feature"
+		id="fundamentals"
 	>
 		<div
 			class="flex flex-col gap-8 items-center bg-gradient-to-t from-pink-500 to-slate-950 rounded-3xl w-full h-full p-4 justify-end col-span-2 md:gap-16"
@@ -377,6 +379,7 @@
 	<!-- End Breakout 1 -->
 	<!-- Feature breakout 2 -->
 	<section
+		id="challenges"
 		class="p-section flex flex-col md:grid md:grid-cols-5 gap-8 max-w-[1440px] mx-auto w-full feature"
 	>
 		<div
@@ -489,6 +492,7 @@
 	<!-- Feature breakout 3 -->
 	<section
 		class="p-section flex flex-col md:grid md:grid-cols-5 gap-8 max-w-[1440px] mx-auto w-full feature"
+		id="feedback"
 	>
 		<div
 			class="flex flex-col gap-8 items-center bg-gradient-to-t from-blue-900 to-slate-950 rounded-3xl w-full h-full p-4 justify-end col-span-2 md:gap-16"
@@ -602,6 +606,7 @@
 </ScrollStack>
 <!-- Pricing Section -->
 <section
+	id="pricing"
 	class="p-section flex flex-col gap-12 bg-pricing bg-cover bg-no-repeat bg-right-bottom md:bg-top [mask-image:_linear-gradient(to_top,transparent_0,_black_calc(100%-60px),transparent_100%)]"
 >
 	<div class="flex flex-col gap-6 items-center">
@@ -706,7 +711,7 @@
 	</div>
 </section>
 <!-- FAQ Section -->
-<section class="p-section flex flex-col gap-12">
+<section class="p-section flex flex-col gap-12" id="faq">
 	<div class="flex flex-col gap-6 items-center">
 		<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path
