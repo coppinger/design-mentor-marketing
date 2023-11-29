@@ -20,6 +20,9 @@
 	import FeatureGridItem from '$components/FeatureGridItem.svelte';
 	import IconHolder from '$components/IconHolder.svelte';
 
+	// ShadCN
+	import { Input } from '$lib/components/ui/input';
+
 	// SVGs
 	import Checkmark from '../lib/svgs/Checkmark.svelte';
 	import Heart from '../lib/svgs/Heart.svelte';
@@ -827,18 +830,30 @@
 		class="flex flex-col p-8 place-self-center items-center justify-center gap-4 border-2 border-dashed border-[#94A3B8] border-opacity-[32%] rounded-lg"
 	>
 		<p class="text-white font-semibold text-lg text-center">
-			Want me to let you know when LeetUX launches?
+			Want to know when LeetUX fully launches?
 		</p>
 		<form
 			action="https://api.sheetmonkey.io/form/g3fQBm159y12yp8RNRS6kL"
 			method="post"
-			class="flex gap-4"
+			class="flex flex-col md:flex-row gap-4 items-center"
 		>
-			<input type="email" name="Email" placeholder="your email" required />
+			<input
+				type="email"
+				name="Email"
+				placeholder="your_best@email.address"
+				required
+				class="h-[58px] rounded-lg px-4 py-2 text-slate-950 font-semibold"
+			/>
 			<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-			<input type="submit" class="primary-button" value="Let me know" />
+			<input
+				type="submit"
+				class="!w-full md:w-fit primary-button cursor-pointer"
+				value="Let me know"
+			/>
 		</form>
-		<p class="subtitle !text-base">(no newsletter/spam etc., just a launch announcement)</p>
+		<p class="subtitle !text-base text-center">
+			(no newsletter/spam etc., just a launch announcement)
+		</p>
 	</div>
 </section>
 <!-- FAQ Section -->
