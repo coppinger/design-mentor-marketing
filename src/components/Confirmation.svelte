@@ -4,7 +4,7 @@
 </script>
 
 <section
-	class="flex gap-2 flex-col items-center justify-center pt-40 md:pt-40 md:pb-8 px-8 text-center relative"
+	class="flex gap-4 flex-col items-center justify-center pt-40 md:pt-40 md:pb-8 px-8 text-center relative"
 >
 	<div id="fscreen-confetti" class="pointer-events-none">
 		<Confetti
@@ -27,10 +27,14 @@
 
 	<h2 class="mt-4">You're in</h2>
 	<p class="subtitle">Thank you very much for signing up to LeetUX</p>
-	<p class="font-semibold max-w-sm">
+	<p class="font-semibold max-w-lg">
 		You'll recieve an email shortly with more details. If you have any questions or want to reach
-		out about anything, fire away: charlie@leetux.com
+		out about anything, fire away: <a
+			href="mailto:charlie@leetux.com"
+			class="underline underline-offset-4">charlie@leetux.com</a
+		>
 	</p>
+	<p class="font-semibold max-w-sm opacity-30">p.s. if you'd like an invoice, just let me know</p>
 </section>
 <Footer />
 
