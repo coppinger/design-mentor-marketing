@@ -9,6 +9,11 @@
 	import streamer from '$images/streamer.png';
 	import light_glow from '$images/light-glow.png';
 
+	// Fathom
+	import { trackEvent } from 'fathom-client';
+
+	// Animation
+
 	gsap.registerPlugin(ScrollTrigger);
 	const tl = gsap.timeline();
 
@@ -80,6 +85,9 @@
 				href="https://twitch.tv/thecoppinger"
 				target="_blank"
 				class="flex flex-col z-10 plausible-event-name=TwitchBadgeClick"
+				on:click={() => {
+					trackEvent('twitch streamerbadge');
+				}}
 			>
 				<p class="text-lg font-bold">TheCoppinger</p>
 				<p class="text-lg font-medium text-slate-300">2.3K followers</p>

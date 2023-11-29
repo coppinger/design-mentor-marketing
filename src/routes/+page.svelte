@@ -34,6 +34,9 @@
 	// Utils
 	import { fadeIn } from '$lib/animation';
 
+	// Fathom
+	import { trackEvent } from 'fathom-client';
+
 	// Atropos
 	import 'atropos/css';
 	import Atropos from 'atropos';
@@ -754,6 +757,9 @@
 				<a
 					href="https://buy.stripe.com/7sI6sj4d4c9Ac12145"
 					target="_blank"
+					on:click={() => {
+						trackEvent('stripe lifetime');
+					}}
 					class="primary-button plausible-event-name=LifetimePlanClick">I want in <Confetti /></a
 				>
 			</div>
@@ -809,7 +815,10 @@
 				<a
 					href="https://buy.stripe.com/bIYaIz10Sa1s0ikaEG"
 					target="_blank"
-					class="primary-button plausible-event-name=PremiumPlanClick">Let's do this <Confetti /></a
+					class="primary-button plausible-event-name=PremiumPlanClick"
+					on:click={() => {
+						trackEvent('stripe premium');
+					}}>Let's do this <Confetti /></a
 				>
 			</div>
 		</div>
@@ -900,6 +909,9 @@
 		<p class="text-lg font-semibold text-slate-400">
 			I'm building LeetUX 100% live <a
 				href="https://twitch.tv/thecoppinger"
+				on:click={() => {
+					trackEvent('twitch text-link');
+				}}
 				class="underline underline-offset-4 plausible-event-name=TwitchAboutClick"
 				target="_blank">over on Twitch</a
 			>—stop by and say hello some time!

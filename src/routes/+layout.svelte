@@ -2,16 +2,23 @@
 	import '@fontsource-variable/manrope';
 	import '../styles.css';
 
-	import { PlausibleAnalytics } from '@accuser/svelte-plausible-analytics';
+	// Fathom
+	import { browser } from '$app/environment';
+	import { page } from '$app/stores';
+	import { PUBLIC_FATHOM_ID, PUBLIC_FATHOM_URL } from '$env/static/public';
+	import * as Fathom from 'fathom-client';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		Fathom.load(PUBLIC_FATHOM_ID, {
+			url: PUBLIC_FATHOM_URL
+		});
+	});
+
+	$: $page.url.pathname, browser && Fathom.trackPageview();
 </script>
 
 <svelte:head>
-	<script
-		src="https://cdn.usefathom.com/script.js"
-		data-spa="auto"
-		data-site="TOADOEDA"
-		defer
-	></script>
 	<!-- Primary Meta Tags -->
 	<title>LeetUX — UI/UX & product design challenges for developers</title>
 
@@ -46,8 +53,6 @@
 	/>
 	<meta property="twitter:image" content="https://leetux.com/images/meta-image.jpg" />
 </svelte:head>
-
-<PlausibleAnalytics />
 
 <div>
 	<div class="w-full h-2 bg-pink-500"></div>
