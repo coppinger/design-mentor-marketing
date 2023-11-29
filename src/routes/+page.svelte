@@ -823,6 +823,23 @@
 			</div>
 		</div>
 	</div>
+	<div
+		class="flex flex-col p-8 place-self-center items-center justify-center gap-4 border-2 border-dashed border-[#94A3B8] border-opacity-[32%] rounded-lg"
+	>
+		<p class="text-white font-semibold text-lg text-center">
+			Want me to let you know when LeetUX launches?
+		</p>
+		<form
+			action="https://api.sheetmonkey.io/form/g3fQBm159y12yp8RNRS6kL"
+			method="post"
+			class="flex gap-4"
+		>
+			<input type="email" name="Email" placeholder="your email" required />
+			<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+			<input type="submit" class="primary-button" value="Let me know" />
+		</form>
+		<p class="subtitle !text-base">(no newsletter/spam etc., just a launch announcement)</p>
+	</div>
 </section>
 <!-- FAQ Section -->
 <section class="p-section flex flex-col gap-12" id="faq">
