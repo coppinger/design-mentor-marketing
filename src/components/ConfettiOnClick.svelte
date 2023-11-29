@@ -31,7 +31,13 @@
 
 	{#each things as thing}
 		<div class="mover" style="left: {thing.x}px; top: {thing.y}px">
-			<Confetti y={[-0.5, 0.5]} fallDistance="20px" amount="10" {duration} />
+			<Confetti
+				y={[-0.5, 0.5]}
+				fallDistance="20px"
+				amount="10"
+				{duration}
+				colorArray={['#1E3A8A', '#6D28D9', '#EC4899']}
+			/>
 		</div>
 	{/each}
 </div>

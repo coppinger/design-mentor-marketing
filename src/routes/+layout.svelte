@@ -56,7 +56,7 @@
 </div>
 
 <div
-	class="max-w-screen-2xl mx-auto 2xl:border-[#242C4D] 2xl:border-l-8 2xl:border-r-8 2xl:border-opacity-[32%] overflow-x-hidden"
+	class="max-w-screen-2xl mx-auto 2xl:border-[#242C4D] 2xl:border-l-8 2xl:border-r-8 2xl:border-opacity-[32%] overflow-x-hidden relative"
 >
 	<slot />
 </div>

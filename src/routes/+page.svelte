@@ -1,5 +1,5 @@
 <script>
-	import Header from '../components/Header.svelte';
+	import Header from '$components/Header.svelte';
 
 	// Images
 	import lifetime_pricing from '$images/lifetime-pricing.png';
@@ -17,16 +17,16 @@
 	import lesson_video from '$images/learning-bg.mp4';
 
 	// Components
-	import FeatureGridItem from '../components/FeatureGridItem.svelte';
-	import IconHolder from '../components/IconHolder.svelte';
+	import FeatureGridItem from '$components/FeatureGridItem.svelte';
+	import IconHolder from '$components/IconHolder.svelte';
 
 	// SVGs
 	import Checkmark from '../lib/svgs/Checkmark.svelte';
 	import Heart from '../lib/svgs/Heart.svelte';
 	import Confetti from '../lib/svgs/Confetti.svelte';
 	import Star from '../lib/svgs/Star.svelte';
-	import StreamerBadge from '../components/StreamerBadge.svelte';
-	import Footer from '../components/Footer.svelte';
+	import StreamerBadge from '$components/StreamerBadge.svelte';
+	import Footer from '$components/Footer.svelte';
 
 	// Svelte
 	import { onMount } from 'svelte';
@@ -38,7 +38,7 @@
 	import 'atropos/css';
 	import Atropos from 'atropos';
 	import ScrollStack from '../lib/components/ScrollStack.svelte';
-	import ConfettiOnClick from '../components/ConfettiOnClick.svelte';
+	import ConfettiOnClick from '$components/ConfettiOnClick.svelte';
 
 	onMount(() => {
 		const exampleChallenge = Atropos({

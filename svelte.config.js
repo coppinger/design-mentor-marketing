@@ -9,7 +9,7 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$svgs: 'src/lib/svgs',
-			$components: 'src/lib/components',
+			$components: 'src/components',
 			$images: 'src/lib/images',
 			$fonts: 'src/lib/fonts',
 			$lib: './src/lib'
