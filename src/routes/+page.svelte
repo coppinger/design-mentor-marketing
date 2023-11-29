@@ -707,7 +707,7 @@
 	<div class="flex flex-col gap-6 items-center">
 		<h3>Early Access</h3>
 		<p class="subtitle text-center max-w-sm">
-			LeetUX isn’t ready yet, but I’m hoping to find =&lt;20 folks who are excited and want to get
+			LeetUX isn’t ready yet, but I’m hoping to find &lt;=20 folks who are excited and want to get
 			on board early.
 		</p>
 	</div>
