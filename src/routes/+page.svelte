@@ -725,7 +725,7 @@
 				<div class="flex flex-col gap-8 items-center">
 					<img class="max-w-[224px]" src={lifetime_pricing} alt="" />
 					<p class="text-lg font-semibold text-white text-center">
-						Limited to 10 people, 6 remaining
+						Limited to 10 people, 4 remaining
 					</p>
 				</div>
 				<ul class="flex flex-col gap-6">
@@ -775,7 +775,7 @@
 				<div class="flex flex-col gap-8 items-center">
 					<img class="max-w-[250px]" src={premium_pricing} alt="" />
 					<p class="text-lg font-semibold text-white text-center">
-						Limited to 10 people, 4 remaining
+						Limited to 10 people, 3 remaining
 					</p>
 				</div>
 				<ul class="flex flex-col gap-6">
