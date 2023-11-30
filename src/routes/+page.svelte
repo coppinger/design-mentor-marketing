@@ -507,7 +507,7 @@
 				</IconHolder>
 				<p class="text-white font-bold text-xl">Complete challenges</p>
 				<p class="text-slate-400 font-semibold">
-					Quickly pick up the fundamental principles of design.
+					Tackle design challenges to develop your confidence and skills in product design.
 				</p>
 			</div>
 			<div class="flex flex-col gap-4 p-6">
@@ -526,7 +526,7 @@
 					</svg>
 				</IconHolder>
 				<p class="text-white font-bold text-xl">Varying difficulty</p>
-				<p class="text-slate-400 font-semibold">An introduction to the processes and methods.</p>
+				<p class="text-slate-400 font-semibold">Challenges for every level of profficiency.</p>
 			</div>
 			<div class="flex flex-col gap-4 p-6">
 				<IconHolder>
@@ -545,7 +545,7 @@
 				</IconHolder>
 				<p class="text-white font-bold text-xl">Every stage</p>
 				<p class="text-slate-400 font-semibold">
-					You’ll learn all the tools and shortcuts to make you fly.
+					Complete challenges that cater to every stage of the desing process, from start to finish.
 				</p>
 			</div>
 			<div class="flex flex-col gap-4 p-6">
@@ -565,7 +565,7 @@
 				</IconHolder>
 				<p class="text-white font-bold text-xl">Build a library</p>
 				<p class="text-slate-400 font-semibold">
-					A sophisticated workflow to rapidly design and build.
+					Create a library of components you can reuse to speed up your design process.
 				</p>
 			</div>
 		</div>
