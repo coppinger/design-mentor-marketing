@@ -728,7 +728,7 @@
 				<div class="flex flex-col gap-8 items-center">
 					<img class="max-w-[224px]" src={lifetime_pricing} alt="" />
 					<p class="text-lg font-semibold text-white text-center">
-						Limited to 10 people, 2 remaining
+						Limited to 10 people, 1 remaining
 					</p>
 				</div>
 				<ul class="flex flex-col gap-6">
@@ -778,7 +778,7 @@
 				<div class="flex flex-col gap-8 items-center">
 					<img class="max-w-[250px]" src={premium_pricing} alt="" />
 					<p class="text-lg font-semibold text-white text-center">
-						Limited to 10 people, 1 remaining
+						Limited to 10 people, 0 remaining
 					</p>
 				</div>
 				<ul class="flex flex-col gap-6">
@@ -815,14 +815,13 @@
 						<p class="text-white opacity-[64%] font-semibold">A cute early access badge</p>
 					</li>
 				</ul>
-				<a
-					href="https://buy.stripe.com/bIYaIz10Sa1s0ikaEG"
+				<p
 					target="_blank"
-					class="primary-button plausible-event-name=PremiumPlanClick"
-					on:click={() => {
-						trackEvent('stripe premium');
-					}}>Let's do this <Confetti /></a
+					aria-disabled="true"
+					class="primary-button bg-red-600 plausible-event-name=PremiumPlanClick disabled"
 				>
+					Sold out!
+				</p>
 			</div>
 		</div>
 	</div>
